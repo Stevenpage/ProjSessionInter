@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" ng-app="memorizerInfinie">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ClientSMI</title>
+    <script src="lib/jquery-1.11.3.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="lib/npm.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">ClientSMI</a>
+            </div>
+            <div class="nav navbar-nav navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" ng-controller="LoginController">
+
+      <form class="form-signin" ng-submit="register()">
+        <h2 class="form-signin-heading">Register</h2>
+        <input id="inputEmail" class="form-control" placeholder="Email" ng-model="registerEmail" required="" type="email">
+        <input id="inputEmail" class="form-control" placeholder="Password" ng-model="registerPassword" required="" type="password">
+        <input id="inputEmail" class="form-control" placeholder="Confirm password" ng-model="registerPasswordConfirm" required="" type="password">          
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+      </form>
+
+    </div>
+
+</body>
+
+</html>
