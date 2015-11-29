@@ -1,0 +1,176 @@
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\ProjetFinalEchAppServer.dll.config
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\ProjetFinalEchAppServer.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\ProjetFinalEchAppServer.pdb
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Antlr3.Runtime.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\EntityFramework.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\EntityFramework.SqlServer.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Google.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Newtonsoft.Json.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Owin.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Net.Http.Formatting.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Helpers.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.Owin.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.WebHost.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Mvc.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Optimization.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Razor.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.Deployment.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.Razor.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\WebGrease.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Newtonsoft.Json.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Net.Http.Formatting.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Helpers.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.WebHost.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Mvc.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Optimization.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Razor.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.Deployment.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.Razor.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Antlr3.Runtime.pdb
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\EntityFramework.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\EntityFramework.SqlServer.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Google.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.Owin.xml
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Net.Http.Formatting.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Helpers.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Http.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Http.WebHost.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Mvc.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Optimization.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Razor.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.WebPages.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.WebPages.Razor.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\EntityFramework.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\EntityFramework.SqlServer.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.Google.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Http.Owin.resources.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.csprojResolveAssemblyReference.cache
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.dll
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.pdb
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.Migrations.Initial.resources
+C:\Espace Labo\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.csproj.GenerateResource.Cache
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\ProjetFinalEchAppServer.dll.config
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\ProjetFinalEchAppServer.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\ProjetFinalEchAppServer.pdb
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Antlr3.Runtime.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\EntityFramework.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\EntityFramework.SqlServer.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Newtonsoft.Json.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Owin.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Net.Http.Formatting.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Helpers.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.Owin.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.WebHost.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Mvc.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Optimization.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Razor.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.Razor.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\WebGrease.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Newtonsoft.Json.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Net.Http.Formatting.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Helpers.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.WebHost.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Mvc.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Optimization.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Razor.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.WebPages.Razor.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Antlr3.Runtime.pdb
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\EntityFramework.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\EntityFramework.SqlServer.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\System.Web.Http.Owin.xml
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Net.Http.Formatting.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Http.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Http.WebHost.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Razor.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.WebPages.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\EntityFramework.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Http.Owin.resources.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.csprojResolveAssemblyReference.cache
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.Migrations.Initial.resources
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.csproj.GenerateResource.Cache
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.dll
+C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.pdb

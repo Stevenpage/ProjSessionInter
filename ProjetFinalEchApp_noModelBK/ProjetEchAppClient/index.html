@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" ng-app="memorizerInfinie">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ProjetFinalEchAppClient</title>
+    <script src="lib/jquery-1.11.3.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="lib/npm.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">ProjetFinalEchAppClient</a>
+            </div>
+            <div class="nav navbar-nav navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" ng-controller="LoginController">
+
+      <form class="form-signin" ng-submit="login()">
+        <h2 class="form-signin-heading">Login</h2>
+        <input id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="" ng-model="loginEmail">
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" ng-model="loginPassword">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+        <br>
+        <p align="center">Dev Mode</p>
+        <p align="center">thedev@dev.com / Passw0rd!</p>
+        <!--<a href="#/register" align="center">Test route provider</a>-->
+    </div>
+
+</body>
+
+</html>

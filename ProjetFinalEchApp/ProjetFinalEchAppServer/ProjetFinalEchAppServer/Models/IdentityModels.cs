@@ -3,17 +3,19 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjetFinalEchAppServer.Models
 {
     // Vous pouvez ajouter des données de profil pour l'utilisateur en ajoutant d'autres propriétés à votre classe ApplicationUser, consultez http://go.microsoft.com/fwlink/?LinkID=317594 pour en savoir davantage.
     public class ApplicationUser : IdentityUser
     {
+        [InverseProperty("User")]
+        public virtual List<Trip> Trips { get; set; }
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager, string authenticationType)
         {
-            // Notez que authenticationType doit correspondre à l'instance définie dans CookieAuthenticationOptions.AuthenticationType
             var userIdentity = await manager.CreateIdentityAsync(this, authenticationType);
-            // Ajouter des revendications d’utilisateur personnalisées ici
             return userIdentity;
         }
     }
@@ -29,5 +31,11 @@ namespace ProjetFinalEchAppServer.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<ProjetFinalEchAppServer.Models.Trip> Trips { get; set; }
+
+        public System.Data.Entity.DbSet<ProjetFinalEchAppServer.Models.Period> Periods { get; set; }
+
+        public System.Data.Entity.DbSet<ProjetFinalEchAppServer.Models.Pin> Pins { get; set; }
     }
 }
