@@ -11,7 +11,7 @@ namespace ProjetFinalEchAppServer.DAL
     {
         protected override void Seed(ApplicationDbContext context)
         { 
-            //Add stuff
+            
         }
     }
 }
