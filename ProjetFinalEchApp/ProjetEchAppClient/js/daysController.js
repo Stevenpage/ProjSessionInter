@@ -4,7 +4,7 @@ daysController.controller('DaysController', function DaysController($scope, $htt
 
     $scope.Voyage;
 
-    $scope.GetForVoyage = function () {
+    $scope.GetDaysForVoyage = function () {
         $http({
             method: 'GET',
             header: { Authorization: 'Bearer ' + localStorage.getItem($scope.TOKEN_KEY) },
@@ -13,6 +13,21 @@ daysController.controller('DaysController', function DaysController($scope, $htt
         }).success(function (data) {
             console.log(data)
             $scope.Memos = data;
+        });
+    }
+
+    $scope.GetPinsForDays = function () {
+        $http({
+            method: 'GET',
+            header: { Authorization: 'Bearer ' + localStorage.getItem($scope.TOKEN_KEY) },
+            url: 'http://localhost:53407/api/days/getdaypins/' + $scope.DayId,
+        }).success(function (data) {
+            console.log("GET pins of specified day");
+            $scope.dayPins = data;
+            console.log("data");
+            console.log(data);
+            console.log("days");
+            console.log($scope.dayPins);
         });
     }
 
