@@ -22,6 +22,19 @@ namespace ProjetFinalEchAppServer.Controllers
             return db.Trips;
         }
 
+        // GET: api/GetTripPins/5
+        [Route("api/Trips/GetTripPins/{id}/")]
+        public IQueryable<Pin> GetTripPins(int id)
+        {
+            List<Pin> tripPins = new List<Pin>();
+            Trip trip = db.Trips.Find(id);
+            foreach (Day currentDay in trip.Days)
+            {
+                tripPins.Add(currentDay.Pins.OrderBy(x => x.StartDate).First());
+            }
+            return tripPins.AsQueryable();
+        }
+
         // GET: api/Trips/5
         [ResponseType(typeof(Trip))]
         public IHttpActionResult GetTrip(int id)

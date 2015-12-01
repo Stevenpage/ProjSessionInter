@@ -169,7 +169,6 @@ C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppSer
 C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\fr\System.Web.Http.Owin.resources.dll
-C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.csprojResolveAssemblyReference.cache
 C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.dll
 C:\Users\1053362\Desktop\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\obj\Debug\ProjetFinalEchAppServer.pdb
 C:\Users\Pluto\Thealoe\Workspace\ProjSessionInter\ProjetFinalEchApp\ProjetFinalEchAppServer\ProjetFinalEchAppServer\bin\ProjetFinalEchAppServer.dll.config

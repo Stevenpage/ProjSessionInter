@@ -34,7 +34,7 @@ namespace ProjetFinalEchAppServer.Models
 
         public System.Data.Entity.DbSet<ProjetFinalEchAppServer.Models.Trip> Trips { get; set; }
 
-        public System.Data.Entity.DbSet<ProjetFinalEchAppServer.Models.Day> Periods { get; set; }
+        public System.Data.Entity.DbSet<ProjetFinalEchAppServer.Models.Day> Days { get; set; }
 
         public System.Data.Entity.DbSet<ProjetFinalEchAppServer.Models.Pin> Pins { get; set; }
     }
