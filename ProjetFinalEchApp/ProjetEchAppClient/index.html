@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en" ng-app="memorizerInfinie">
 
 <head>
@@ -34,18 +34,25 @@
         </div>
     </nav>
 
-    <div class="container" ng-controller="LoginController">
+    <div class="container">
+        <div ng-controller="LoginController">
+            <form class="form-signin" ng-submit="login()">
+                <h2 class="form-signin-heading">Login</h2>
+                <input id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="" ng-model="loginEmail">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" ng-model="loginPassword">
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            </form>
+            <br>
+            <p align="center">Dev Mode</p>
+            <p align="center">thedev@dev.com / Passw0rd!</p>
+            <!--<a href="#/register" align="center">Test route provider</a>-->
 
-      <form class="form-signin" ng-submit="login()">
-        <h2 class="form-signin-heading">Login</h2>
-        <input id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="" ng-model="loginEmail">
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" ng-model="loginPassword">
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
-        <br>
-        <p align="center">Dev Mode</p>
-        <p align="center">thedev@dev.com / Passw0rd!</p>
-        <!--<a href="#/register" align="center">Test route provider</a>-->
+        </div>
+
+      
+
+        <div ng-include="voyageTemplateUrl"></div>
+
     </div>
 
 </body>
