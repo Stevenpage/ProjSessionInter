@@ -50,14 +50,3 @@ loginController.controller('LoginController', function LoginController($scope, $
     }
 
 });
-
-
-var tripsController = angular.module('tripsController', []);
-
-tripsController.controller('TripsController', function TripsController($scope, $http, $rootScope) {
-});
-
-var periodsController = angular.module('periodsController', []);
-
-periodsController.controller('PeriodsController', function PeriodsController($scope, $http, $rootScope) {
-});
