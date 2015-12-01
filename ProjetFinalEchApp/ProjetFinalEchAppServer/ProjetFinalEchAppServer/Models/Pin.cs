@@ -21,6 +21,6 @@ namespace ProjetFinalEchAppServer.Models
 
         public string TransportType { get; set; }
 
-        public virtual Day Period { get; set; }
+        public virtual Day Day { get; set; }
     }
 }

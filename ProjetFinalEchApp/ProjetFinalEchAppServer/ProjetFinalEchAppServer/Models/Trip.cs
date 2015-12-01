@@ -16,11 +16,9 @@ namespace ProjetFinalEchAppServer.Models
 
         public double BudgetLimit { get; set; }
 
-        public bool Shared { get; set; }
-
         [InverseProperty("Trips")]
         public virtual ApplicationUser User { get; set; }
 
-        public virtual List<Day> Periods { get; set; }
+        public virtual List<Day> Days { get; set; }
     }
 }
