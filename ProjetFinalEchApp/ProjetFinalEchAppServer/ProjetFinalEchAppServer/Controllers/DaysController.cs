@@ -17,16 +17,24 @@ namespace ProjetFinalEchAppServer.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: api/Days
-        public IQueryable<Day> GetPeriods()
+        public IQueryable<Day> GetDays()
         {
-            return db.Periods;
+            return db.Days;
+        }
+
+
+        // GET: api/GetDayPins/5
+        [Route("api/Days/GetDayPins/{id}/")]
+        public IQueryable<Pin> GetDayPins(int id)
+        {
+            return db.Days.Find(id).Pins.OrderBy(x => x.StartDate).AsQueryable();
         }
 
         // GET: api/Days/5
         [ResponseType(typeof(Day))]
         public IHttpActionResult GetDay(int id)
         {
-            Day day = db.Periods.Find(id);
+            Day day = db.Days.Find(id);
             if (day == null)
             {
                 return NotFound();
@@ -79,7 +87,7 @@ namespace ProjetFinalEchAppServer.Controllers
                 return BadRequest(ModelState);
             }
 
-            db.Periods.Add(day);
+            db.Days.Add(day);
             db.SaveChanges();
 
             return CreatedAtRoute("DefaultApi", new { id = day.Id }, day);
@@ -89,13 +97,13 @@ namespace ProjetFinalEchAppServer.Controllers
         [ResponseType(typeof(Day))]
         public IHttpActionResult DeleteDay(int id)
         {
-            Day day = db.Periods.Find(id);
+            Day day = db.Days.Find(id);
             if (day == null)
             {
                 return NotFound();
             }
 
-            db.Periods.Remove(day);
+            db.Days.Remove(day);
             db.SaveChanges();
 
             return Ok(day);
@@ -112,7 +120,7 @@ namespace ProjetFinalEchAppServer.Controllers
 
         private bool DayExists(int id)
         {
-            return db.Periods.Count(e => e.Id == id) > 0;
+            return db.Days.Count(e => e.Id == id) > 0;
         }
     }
 }
