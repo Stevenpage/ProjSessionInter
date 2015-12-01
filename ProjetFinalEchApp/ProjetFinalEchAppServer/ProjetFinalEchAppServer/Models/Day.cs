@@ -5,7 +5,7 @@ using System.Web;
 
 namespace ProjetFinalEchAppServer.Models
 {
-    public class Period
+    public class Day
     {
         public int Id { get; set; }
 

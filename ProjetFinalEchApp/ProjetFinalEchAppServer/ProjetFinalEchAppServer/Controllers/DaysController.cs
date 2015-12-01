@@ -12,44 +12,44 @@ using ProjetFinalEchAppServer.Models;
 
 namespace ProjetFinalEchAppServer.Controllers
 {
-    public class PeriodsController : ApiController
+    public class DaysController : ApiController
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
-        // GET: api/Periods
-        public IQueryable<Period> GetPeriods()
+        // GET: api/Days
+        public IQueryable<Day> GetPeriods()
         {
             return db.Periods;
         }
 
-        // GET: api/Periods/5
-        [ResponseType(typeof(Period))]
-        public IHttpActionResult GetPeriod(int id)
+        // GET: api/Days/5
+        [ResponseType(typeof(Day))]
+        public IHttpActionResult GetDay(int id)
         {
-            Period period = db.Periods.Find(id);
-            if (period == null)
+            Day day = db.Periods.Find(id);
+            if (day == null)
             {
                 return NotFound();
             }
 
-            return Ok(period);
+            return Ok(day);
         }
 
-        // PUT: api/Periods/5
+        // PUT: api/Days/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutPeriod(int id, Period period)
+        public IHttpActionResult PutDay(int id, Day day)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != period.Id)
+            if (id != day.Id)
             {
                 return BadRequest();
             }
 
-            db.Entry(period).State = EntityState.Modified;
+            db.Entry(day).State = EntityState.Modified;
 
             try
             {
@@ -57,7 +57,7 @@ namespace ProjetFinalEchAppServer.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!PeriodExists(id))
+                if (!DayExists(id))
                 {
                     return NotFound();
                 }
@@ -70,35 +70,35 @@ namespace ProjetFinalEchAppServer.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // POST: api/Periods
-        [ResponseType(typeof(Period))]
-        public IHttpActionResult PostPeriod(Period period)
+        // POST: api/Days
+        [ResponseType(typeof(Day))]
+        public IHttpActionResult PostDay(Day day)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            db.Periods.Add(period);
+            db.Periods.Add(day);
             db.SaveChanges();
 
-            return CreatedAtRoute("DefaultApi", new { id = period.Id }, period);
+            return CreatedAtRoute("DefaultApi", new { id = day.Id }, day);
         }
 
-        // DELETE: api/Periods/5
-        [ResponseType(typeof(Period))]
-        public IHttpActionResult DeletePeriod(int id)
+        // DELETE: api/Days/5
+        [ResponseType(typeof(Day))]
+        public IHttpActionResult DeleteDay(int id)
         {
-            Period period = db.Periods.Find(id);
-            if (period == null)
+            Day day = db.Periods.Find(id);
+            if (day == null)
             {
                 return NotFound();
             }
 
-            db.Periods.Remove(period);
+            db.Periods.Remove(day);
             db.SaveChanges();
 
-            return Ok(period);
+            return Ok(day);
         }
 
         protected override void Dispose(bool disposing)
@@ -110,7 +110,7 @@ namespace ProjetFinalEchAppServer.Controllers
             base.Dispose(disposing);
         }
 
-        private bool PeriodExists(int id)
+        private bool DayExists(int id)
         {
             return db.Periods.Count(e => e.Id == id) > 0;
         }

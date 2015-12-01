@@ -21,6 +21,6 @@ namespace ProjetFinalEchAppServer.Models
         [InverseProperty("Trips")]
         public virtual ApplicationUser User { get; set; }
 
-        public virtual List<Period> Periods { get; set; }
+        public virtual List<Day> Periods { get; set; }
     }
 }

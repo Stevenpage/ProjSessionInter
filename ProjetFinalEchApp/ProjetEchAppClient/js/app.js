@@ -1,1 +1,1 @@
-var memorizerInfinie = angular.module('memorizerInfinie', ['loginController','tripsController','periodsController']);
+var memorizerInfinie = angular.module('memorizerInfinie', ['loginController','tripsController','daysController']);

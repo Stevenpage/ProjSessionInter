@@ -13,12 +13,14 @@ namespace ProjetFinalEchAppServer.Models
 
         public DateTime EndDate { get; set; }
 
-        public double X { get; set; }
+        public double Longitude { get; set; }
 
-        public double Y { get; set; }
+        public double Latitude { get; set; }
+
+        public double CashSpent { get; set; }
 
         public string TransportType { get; set; }
 
-        public virtual Period Period { get; set; }
+        public virtual Day Period { get; set; }
     }
 }
