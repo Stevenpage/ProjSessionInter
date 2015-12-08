@@ -1,7 +1,21 @@
 <div class="container">
-    <div ng-controller="LoginController">
+    <div ng-controller="DaysController">
         <div class="col-xs-12">
-            <button class="btn btn-default" ng-click="GetPinsForDay()">Voir les memos</button>
+            <button class="btn btn-default" ng-click="GetDayPins()">Voir les jours</button>
+        </div>
+
+        <div class="col-xs-12">
+            <input type="text" placeholder="Titre" ng-model="AddPinTransportType">
+            <input type="text" placeholder="Date de départ MM/DD/YYYY" ng-model="AddPinStartDate">
+            <input type="text" placeholder="Date de fin MM/DD/YYYY" ng-model="AddPinEndDate">
+            <input type="text" placeholder="Longitude" ng-model="AddPinLongitude">
+            <input type="text" placeholder="Latitude" ng-model="AddPinLatitude">
+            <input type="text" placeholder="Argent dépensé" ng-model="AddPinCashSpent">
+            <button class="btn btn-default" ng-click="add()">Ajouter un jour</button>
+        </div>
+
+        <div class="col-xs-12">
+            <button class="btn btn-default" ng-click="DeleteLastPin()">Supprimer le dernier pin</button>
         </div>
     </div>
 </div>

@@ -19,6 +19,14 @@ namespace ProjetFinalEchAppServer.DAL
             //ApplicationUser mainUser = new ApplicationUser();
             //mainUser.UserName = "thedev";
             //UserManager.Create(mainUser, "aspasp");
+            //Trip t = new Trip();
+            //t.BudgetLimit = 1000;
+            //t.EndDate = DateTime.Now.AddDays(7);
+            //t.StartDate = DateTime.Now;
+            //t.
+
+            //Day d1 = new Day();
+            //d1.
             //context.SaveChanges();
         }
     }

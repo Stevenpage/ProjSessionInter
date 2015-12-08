@@ -3,7 +3,7 @@ var daysController = angular.module('daysController', []);
 daysController.controller('DaysController', function DaysController($scope, $http, $rootScope) {
 
     //$scope.Voyage;
-    $scope.DayId;
+    $scope.DayId = 1;
 
     //$scope.GetDaysForVoyage = function () {
     //    $http({
