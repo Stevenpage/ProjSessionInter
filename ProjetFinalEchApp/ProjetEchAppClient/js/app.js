@@ -1,4 +1,4 @@
-var memorizerInfinie = angular.module('memorizerInfinie', ['loginController', 'tripsController', 'daysController']);
+var memorizerInfinie = angular.module('memorizerInfinie', ['loginController', 'tripsController', 'daysController', 'googleController']);
 
 memorizerInfinie.run(['$rootScope', function ($rootScope) {
 

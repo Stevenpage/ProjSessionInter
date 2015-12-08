@@ -1,6 +1,6 @@
 var loginController = angular.module('loginController', []);
 
-loginController.controller('LoginController', function LoginController($scope, $http, $rootScope) {
+loginController.controller('LoginController', function ($scope, $http, $rootScope) {
     
     //Login
     $scope.login = function () {

@@ -1,4 +1,4 @@
-var daysController = angular.module('DaysController', []);
+var daysController = angular.module('daysController', []);
 
 daysController.controller('DaysController', function DaysController($scope, $http, $rootScope) {
 

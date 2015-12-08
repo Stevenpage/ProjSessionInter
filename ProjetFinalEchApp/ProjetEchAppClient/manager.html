@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en" ng-app="memorizerInfinie">
 
 <head>
@@ -6,10 +6,13 @@
     <title>ProjetFinalEchAppClient</title>
     <script src="lib/jquery-1.11.3.min.js"></script>
     <script src="lib/bootstrap.min.js"></script>
-    <script src="lib/npm.js"></script>
+    <!--<script src="lib/npm.js"></script>-->
     <script src="lib/angular.min.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/controllers.js"></script>
+    <script src="js/daysController.js"></script>
+    <script src="js/loginController.js"></script>
+    <script src="js/tripsController.js"></script>
+    <script src="js/GoogleController.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -35,6 +38,13 @@
             </div>
         </div>
     </nav>
+    <div class="container" ng-controller="TripsController">
+
+        <input type=submit class="btn btn-primary col-md-12" value="Ajouter voyage" ng-click="creationVoyage()">
+    </div>
+
+    <!--<div ng-include="GoogleTemplateUrl"></div>-->
+    
 
 </body>
 
