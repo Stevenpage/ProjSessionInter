@@ -55,6 +55,18 @@ namespace ProjetFinalEchAppServer.Controllers
             {
                 tripPins.Add(currentDay.Pins.OrderBy(x => x.StartDate).First());
             }
+            var memos = from p in tripPins
+                        select new PinDTO()
+                        {
+                            Id = p.Id,
+                            StartDate = p.StartDate,
+                            EndDate = p.EndDate,
+                            Longitude = p.Longitude,
+                            Latitude = p.Latitude,
+                            CashSpent = p.CashSpent,
+                            TransportType = p.TransportType,
+                            Day = p.Day.Title
+                        };
             return tripPins.AsQueryable();
         }
 
