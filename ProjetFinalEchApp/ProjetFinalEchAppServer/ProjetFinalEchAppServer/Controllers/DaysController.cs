@@ -22,7 +22,6 @@ namespace ProjetFinalEchAppServer.Controllers
             return db.Days;
         }
 
-
         // GET: api/GetDayPins/5
         [Route("api/Days/GetDayPins/{id}/")]
         public IQueryable<PinDTO> GetDayPins(int id)

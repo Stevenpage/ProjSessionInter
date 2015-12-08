@@ -47,7 +47,7 @@ namespace ProjetFinalEchAppServer.Controllers
 
         // GET: api/GetTripPins/5
         [Route("api/Trips/GetTripPins/{id}/")]
-        public IQueryable<Pin> GetTripPins(int id)
+        public IQueryable<PinDTO> GetTripPins(int id)
         {
             List<Pin> tripPins = new List<Pin>();
             Trip trip = db.Trips.Find(id);
@@ -55,7 +55,7 @@ namespace ProjetFinalEchAppServer.Controllers
             {
                 tripPins.Add(currentDay.Pins.OrderBy(x => x.StartDate).First());
             }
-            var memos = from p in tripPins
+            var trips = from p in tripPins
                         select new PinDTO()
                         {
                             Id = p.Id,
@@ -67,7 +67,7 @@ namespace ProjetFinalEchAppServer.Controllers
                             TransportType = p.TransportType,
                             Day = p.Day.Title
                         };
-            return tripPins.AsQueryable();
+            return trips.AsQueryable();
         }
 
         // GET: api/Trips/5
