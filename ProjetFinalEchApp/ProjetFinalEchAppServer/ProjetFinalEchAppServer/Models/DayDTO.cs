@@ -5,7 +5,7 @@ using System.Web;
 
 namespace ProjetFinalEchAppServer.Models
 {
-    public class Day
+    public class DayDTO
     {
         public int Id { get; set; }
 
@@ -17,7 +17,7 @@ namespace ProjetFinalEchAppServer.Models
 
         public double BudgetLimit { get; set; }
 
-        public virtual Trip Trip { get; set; }
+        public virtual String Trip { get; set; }
 
         public virtual List<Pin> Pins { get; set; }
     }

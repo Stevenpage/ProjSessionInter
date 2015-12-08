@@ -25,9 +25,21 @@ namespace ProjetFinalEchAppServer.Controllers
 
         // GET: api/GetDayPins/5
         [Route("api/Days/GetDayPins/{id}/")]
-        public IQueryable<Pin> GetDayPins(int id)
+        public IQueryable<PinDTO> GetDayPins(int id)
         {
-            return db.Days.Find(id).Pins.OrderBy(x => x.StartDate).AsQueryable();
+            var pins = from p in db.Days.Find(id).Pins.OrderBy(x => x.StartDate)
+                        select new PinDTO()
+                        {
+                            Id = p.Id,
+                            StartDate = p.StartDate,
+                            EndDate = p.EndDate,
+                            Longitude = p.Longitude,
+                            Latitude = p.Latitude,
+                            CashSpent = p.CashSpent,
+                            TransportType = p.TransportType,
+                            Day = p.Day.Title
+                        };
+            return pins.AsQueryable();
         }
 
         // GET: api/Days/5

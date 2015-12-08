@@ -5,20 +5,22 @@ using System.Web;
 
 namespace ProjetFinalEchAppServer.Models
 {
-    public class Day
+    public class PinDTO
     {
         public int Id { get; set; }
-
-        public string Title { get; set; }
 
         public DateTime StartDate { get; set; }
 
         public DateTime EndDate { get; set; }
 
-        public double BudgetLimit { get; set; }
+        public double Longitude { get; set; }
 
-        public virtual Trip Trip { get; set; }
+        public double Latitude { get; set; }
 
-        public virtual List<Pin> Pins { get; set; }
+        public double CashSpent { get; set; }
+
+        public string TransportType { get; set; }
+
+        public virtual string Day { get; set; }
     }
 }
