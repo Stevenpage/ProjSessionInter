@@ -9,6 +9,12 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using ProjetFinalEchAppServer.Models;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.Owin.Security;
+using Microsoft.Owin.Security.Cookies;
+using Microsoft.Owin.Security.OAuth;
 
 namespace ProjetFinalEchAppServer.Controllers
 {
@@ -17,9 +23,26 @@ namespace ProjetFinalEchAppServer.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: api/Trips
-        public IQueryable<Trip> GetTrips()
+        public IQueryable<TripDTO> GetTrips()
         {
-            return db.Trips;
+            //Get logged user infos
+            //string id = User.Identity.GetUserId();
+            //ApplicationUser user = db.Users.Include(u => u.Trips).Where(u => u.Id == id).FirstOrDefault();
+            List<Trip> tripList = db.Trips.ToList();
+            var trips = from t in db.Trips
+                        select new TripDTO()
+                        {
+                            Id = t.Id,
+                            Title = t.Title,
+                            BudgetLimit = t.BudgetLimit,
+                            StartDate = t.StartDate,
+                            EndDate = t.EndDate,
+                            User = t.User.UserName
+                        };
+            //Return all trips
+            return trips;
+            //Return logged user trips...
+            //return trips.Where(x => x.User == user.Email);
         }
 
         // GET: api/GetTripPins/5

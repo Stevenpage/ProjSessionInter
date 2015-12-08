@@ -14,6 +14,7 @@ namespace ProjetFinalEchAppServer.DAL
         protected override void Seed(ApplicationDbContext context)
         {   
             //Main user init.
+            /*
             UserManager<ApplicationUser> UserManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
             ApplicationUser mainUser = new ApplicationUser();
             mainUser.UserName = "thedev";

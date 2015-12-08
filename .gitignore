@@ -42,3 +42,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 ProjetFinalEchApp/ProjetFinalEchAppServer/packages/Newtonsoft.Json.6.0.4/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll
+ProjetFinalEchApp/ProjetFinalEchAppServer/ProjetFinalEchAppServer/App_Data/aspnet-ProjetFinalEchAppServer-20151124040340.mdf
+*.mdf
+ProjetFinalEchApp/ProjetFinalEchAppServer/ProjetFinalEchAppServer/App_Data/aspnet-ProjetFinalEchAppServer-20151124040340.mdf
+*.ldf
