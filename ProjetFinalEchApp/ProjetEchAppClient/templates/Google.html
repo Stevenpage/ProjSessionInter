@@ -1,0 +1,171 @@
+<div class="container">
+    <div ng-controller="GoogleController">
+        <div class="tp-banner" id="itineraire-slider">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                    <div class="tp-caption large_white_light sft"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="-150"
+                         data-speed="1000"
+                         data-start="700"
+                         data-easing="Power4.easeOut">
+                        Itinéraire <i class="fa fa-car"></i>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="tp-caption lfb fadeout"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="150"
+                         data-speed="1000"
+                         data-start="1400"
+                         data-easing="Power4.easeOut"
+                         style="width:90%">
+                        <div id="map-car" style="width: 100%; height: 400px" ng-init="initMap('map-car','DRIVING')"></div>
+                    </div>
+                </li>
+                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                    <div class="tp-caption large_white_light sft"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="-150"
+                         data-speed="1000"
+                         data-start="700"
+                         data-easing="Power4.easeOut">
+                        Itinéraire <i class="fa fa-bus"></i>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="tp-caption lfb fadeout"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="150"
+                         data-speed="1000"
+                         data-start="1400"
+                         data-easing="Power4.easeOut"
+                         style="width:90%">
+                        <div id="map-bus" style="width: 100%; height: 400px" ng-init="initMap('map-bus','TRANSIT')"></div>
+                    </div>
+                </li>
+                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                    <div class="tp-caption large_white_light sft"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="-150"
+                         data-speed="1000"
+                         data-start="700"
+                         data-easing="Power4.easeOut">
+                        Itinéraire <i class="fa fa-bicycle"></i>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="tp-caption lfb fadeout"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="150"
+                         data-speed="1000"
+                         data-start="1400"
+                         data-easing="Power4.easeOut"
+                         style="width:90%">
+                        <div id="map-bike" style="width: 100%; height: 400px" ng-init="initMap('map-bike','BICYCLING')"></div>
+                    </div>
+                </li>
+                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                    <div class="tp-caption large_white_light sft"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="-150"
+                         data-speed="1000"
+                         data-start="700"
+                         data-easing="Power4.easeOut">
+                        Itinéraire <i class="fa fa-wheelchair"></i>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="tp-caption lfb fadeout"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="150"
+                         data-speed="1000"
+                         data-start="1400"
+                         data-easing="Power4.easeOut"
+                         style="width:90%">
+                        <div id="map-walk" style="width: 100%; height: 400px" ng-init="initMap('map-walk','WALKING')"></div>
+                    </div>
+                </li>
+                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                    <div class="tp-caption large_white_light sft"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="-150"
+                         data-speed="1000"
+                         data-start="700"
+                         data-easing="Power4.easeOut">
+                        Itinéraire Waypoints <i class="fa fa-map-marker"></i>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="tp-caption lfb fadeout"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="150"
+                         data-speed="1000"
+                         data-start="1400"
+                         data-easing="Power4.easeOut"
+                         style="width:90%">
+                        <div id="map-wayp" style="width: 100%; height: 400px" ng-init="initWayp()"></div>
+                    </div>
+                </li>
+                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                    <div class="tp-caption large_white_light sft"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="-150"
+                         data-speed="1000"
+                         data-start="700"
+                         data-easing="Power4.easeOut">
+                        Itinéraire <i class="fa fa-plane"></i>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="tp-caption lfb fadeout"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-voffset="150"
+                         data-speed="1000"
+                         data-start="1400"
+                         data-easing="Power4.easeOut"
+                         style="width:90%">
+                        <div id="map-plane" style="width: 100%; height: 400px" ng-init="initPlane()"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
